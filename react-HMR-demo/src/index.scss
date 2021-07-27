@@ -1,0 +1,23 @@
+#app {
+  padding: 32px 24px;
+  min-width: 1200px;
+}
+.my-form {
+  display: flex;
+  width: 100%;
+}
+.form-section-left {
+  display: block;
+  width: 80%;
+}
+
+.form-section-right {
+  display: flex;
+  .next-form-item {
+    margin: 0 4px;
+  }
+}
+
+.my-dialog {
+  width: 500px;
+}
