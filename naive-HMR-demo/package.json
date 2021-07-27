@@ -1,0 +1,48 @@
+{
+  "name": "react-hmr-demo",
+  "version": "1.0.0",
+  "description": "a webpack hmr demo with react",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "keywords": [
+    "webpack",
+    "HMR",
+    "react"
+  ],
+  "author": "yaosilue",
+  "license": "MIT",
+  "dependencies": {
+    "@alifd/next": "~1.19.8",
+    "@alifd/theme-sto-site": "^0.6.0",
+    "moment": "^2.29.1",
+    "react": "~16.8.6",
+    "react-dom": "~16.8.6",
+    "react-redux": "^7.2.3",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "crypto": "^1.0.1",
+    "css-loader": "~3.2.0",
+    "express": "^4.17.1",
+    "memory-fs": "^0.5.0",
+    "mime": "^2.5.2",
+    "node-sass": "~4.12.0",
+    "sass-loader": "^7.1.0",
+    "socket.io": "^4.0.1",
+    "style-loader": "~1.0.0",
+    "webpack": "~4.40.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.8.2",
+    "webpack-sources": "^1.4.3"
+  }
+}
